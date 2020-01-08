@@ -1,0 +1,18 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion COMPILE_SDK_VERSION as int
+    defaultConfig {
+        minSdkVersion MIN_SDK_VERSION as int
+        targetSdkVersion TARGET_SDK_VERSION as int
+    }
+}
+
+dependencies {
+    implementation "com.android.support:appcompat-v7:$APP_COMPAT_VERSION"
+    implementation "com.android.support:recyclerview-v7:$APP_COMPAT_VERSION"
+    implementation "com.android.support:design:$APP_COMPAT_VERSION"
+    implementation "com.android.support:exifinterface:$APP_COMPAT_VERSION"
+    implementation "com.android.support:support-dynamic-animation:$APP_COMPAT_VERSION"
+    implementation project(':cropme')
+}

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CropMe</string>
+
+    <!--splash-->
+    <string name="splash_title">@string/app_name</string>
+    <string name="splash_description">Extremely Smooth and Easy\nCropping library for you</string>
+    <string name="splash_start">Start</string>
+
+
+    <string name="editing">Editing</string>
+
+
+    <!--error-->
+    <string name="error_permission_denied">Permission is denied.</string>
+    <string name="error_permission_is_off">Permission is off.</string>
+    <string name="error_image_is_off_of_frame">Image is off of the frame.</string>
+
+</resources>
